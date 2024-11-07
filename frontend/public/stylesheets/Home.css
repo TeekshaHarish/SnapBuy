@@ -1,0 +1,100 @@
+/* src/pages/Home.css */
+
+.home-page {
+    font-family: Arial, sans-serif;
+  }
+  
+  .carousel-item img {
+    height: 500px;
+    object-fit: cover;
+  }
+  
+  .darken-image {
+    filter: brightness(50%);
+  }
+  
+  .carousel-caption h3,
+  .carousel-caption p {
+    color: #fff;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .feature-card {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feature-card img {
+    width: 60px;
+  }
+  
+  .product-card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card{
+    height:100%;
+  }
+  .product-card .card-img-top {
+    border-radius: 8px 8px 0 0;
+    height: 200px;
+    object-fit: cover;
+    width: 100%;  
+  }
+  
+  .product-card .card-body h5 {
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+
+  /* .home-product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.home-feature:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+} */
+
+
+  .card-img-custom {
+    object-fit: cover; /* Ensures the image covers the container without overflow */
+    width: 100%; /* Ensures the image takes up the full width of the card */
+    height: 250px; /* Sets a fixed height to make it consistent */
+    border-radius: 8px 8px 0 0; /* Optional: rounded corners for a better look */
+  }
+  
+
+  /* Custom hover effect for product cards */
+.custom-card-hover:hover {
+    transform: scale(1.05);  /* Slightly enlarges the card */
+    transition: transform 0.3s ease-in-out; /* Smooth transition */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+  }
+  
+  /* Custom hover effect for features cards */
+  .custom-feature-card:hover {
+    transform: scale(1.05); /* Slightly enlarges the card */
+    transition: transform 0.3s ease-in-out; /* Smooth transition */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Adds a subtle shadow */
+  }
+  
+  /* Optional: Custom hover effect on product image */
+  .custom-product-image:hover {
+    opacity: 0.8;  /* Slight fade effect */
+    transition: opacity 0.3s ease-in-out; /* Smooth transition */
+  }
+  
+  /* Style adjustments for the text to make sure it's legible */
+  .card-title, .card-text {
+    color: #333;
+  }
+  
+  .card-body .btn {
+    margin-top: auto;
+  }
+  

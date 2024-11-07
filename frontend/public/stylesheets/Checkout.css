@@ -1,0 +1,39 @@
+.container {
+    max-width: 900px;
+}
+
+.checkout-table .header-row {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.checkout-table .item-row {
+    align-items: center;
+}
+
+.checkout-table .col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-outline-success, .btn-outline-danger {
+    width: 35px;
+    height: 35px;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.checkout-summary {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.checkout-summary .btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+}
